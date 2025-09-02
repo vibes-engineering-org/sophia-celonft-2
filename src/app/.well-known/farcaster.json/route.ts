@@ -8,24 +8,24 @@ export async function GET() {
   const config = {
     accountAssociation: {
       header:
-        "eyJmaWQiOjEzNTk2LCJ0eXBlIjoiY3VzdG9keSIsImtleSI6IjB4ODE3MzE4RDZmRkY2NkExOGQ4M0ExMzc2QTc2RjZlMzBCNDNjODg4OSJ9",
+        "eyJmaWQiOjg2OTk5OSwidHlwZSI6ImN1c3RvZHkiLCJrZXkiOiIweDc2ZDUwQjBFMTQ3OWE5QmEyYkQ5MzVGMUU5YTI3QzBjNjQ5QzhDMTIifQ",
       payload:
-        "eyJkb21haW4iOiJmYXJjYXN0ZXItbWluaWFwcC10ZW1wbGF0ZS52ZXJjZWwuYXBwIn0",
+        "eyJkb21haW4iOiJzb3BoaWEtY2Vsb25mdC0yLnZlcmNlbC5hcHAifQ",
       signature:
-        "MHg5ZjkyZTdkNjRmZTNhNTE4YTEzOTBmZTdlYzAwOWQzODUzZWM2N2RmOTZiYjg1MzAwOGRlZDExNjVmOGE5OGVlNDQyYmI0MDU3OTI0ZmEzOGE3N2NlYWRiYThiMTRiN2IzMTY5N2ZjYWVlZGM3MTE1YWNiMTFmYjc2Y2EzYTc0YzFj",
+        "MHgzN2I5MGViMTAwN2I5NDFjOGMyNDU2Nzk2Yzc3YzgyMjhlNzgzYjgwYzNmMWI4MDExMjQ4YTIwZjJmOGEzMDI3MWQyZTM3YWIyY2E4OTE2YjQwOThiYTRhZmE0MmQyYzQ0NTY2ZDg3MjRjNmMwMzM4YWM3ZTU3ODA5MmU1YjZhZjFj",
     },
-    miniapp: {
+    frame: {
       version: "1",
       name: PROJECT_TITLE,
       iconUrl: `${appUrl}/icon.png`,
       homeUrl: appUrl,
-      imageUrl: `${appUrl}/frames/hello/opengraph-image`,
-      ogImageUrl: `${appUrl}/frames/hello/opengraph-image`,
+      imageUrl: `${appUrl}/og.png`,
       buttonTitle: "Open",
-      splashImageUrl: `${appUrl}/splash.png`,
-      splashBackgroundColor: "#f7f7f7",
       webhookUrl: `${appUrl}/api/webhook`,
+      splashImageUrl: `${appUrl}/splash.png`,
+      splashBackgroundColor: "#555555",
       primaryCategory: "social",
+      tags: ["nft", "celo", "minting", "collectibles", "art"],
     },
   };
 
